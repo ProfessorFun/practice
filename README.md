@@ -72,6 +72,6 @@ print('Answer Correct')
 ```
 無限迴圈檢視玩家輸入的答案，當A=4時即結束遊戲
 
-* 遊戲畫面
+## 遊戲畫面
 
 ![GITHUB](prcatice.png)
