@@ -15,7 +15,7 @@ def B(ans_real, check):
                 b += 1
     return b
 
-def wrong(ans_real):
+def format(ans_real):
     for i in range(4):
         for j in range(i):
             if ans_real[i] == ans_real[j]:
@@ -34,7 +34,7 @@ print(ans_real)
 while a != 4:
     while 1:
         ans_user = input("Enter 4 numbers:")
-        if len(ans_user) == 4 and wrong(ans_user):
+        if len(ans_user) == 4 and format(ans_user):
             break
         print('Format Error')
     check = list(ans_user)
